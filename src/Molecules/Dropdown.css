@@ -1,0 +1,32 @@
+.dropdownItem{
+    color: black !important;
+}
+
+.dropdownList{
+    border-style: solid;
+    border-width: 3px !important;
+    border-color: var(--mainColor);
+}
+
+.pageSelection{
+    display: none;
+    gap: 20px;
+    padding: 10px;
+}
+
+.buttonGroup{
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+    .pageSelection{
+        display: flex;
+    }
+
+    .dropdown{
+        display: none !important;
+    }
+}

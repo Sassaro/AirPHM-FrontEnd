@@ -1,0 +1,12 @@
+.FormInputContainer{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.FormInputContainer2{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

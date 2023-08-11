@@ -1,0 +1,7 @@
+.newLodging{
+    width: 350px !important;
+    height: 250px !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

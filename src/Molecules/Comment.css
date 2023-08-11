@@ -1,0 +1,32 @@
+.Imagen{
+    margin-right: 4;
+}
+.Puntuacion{
+    display: flex;
+    align-items: center;
+
+}
+.TopContainer{
+    align-items: center;
+    justify-content: space-around;
+}
+.BoxContainer{
+    border-radius: 20px;
+    border-width: 1px;
+    width: 18rem;
+    background-color: white;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+    margin: 2rem 0;
+    padding: 10px;
+    
+}
+.creador{
+    font-size: larger;
+    font-weight: bold;
+}
+.titulo{
+    font-weight: bold;
+}
+.comentario{
+    margin-left: 5px;
+}

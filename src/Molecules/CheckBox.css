@@ -1,0 +1,22 @@
+.checkboxes{
+    width: 100%;
+    
+}
+
+.checkboxContainer{
+    padding: 0 10px 25px 10px;
+    width: 95%;
+    max-width: 250px;
+    border-width: 0 0 2px 0;
+    border-color: black;
+    border-style: solid;
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 768px) {
+    .checkboxContainer{
+        border-width: 0 2px 0 0;
+        margin: 0 10px 0px 0;
+    }
+}
+  

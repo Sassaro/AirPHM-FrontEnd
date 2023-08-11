@@ -1,0 +1,9 @@
+
+.table-lodging-name{
+    text-decoration: underline;
+    color:blue;
+    cursor: pointer;
+    width: min-content;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,22 @@
+:root{
+
+    --mainColor: #3A98B9;
+    --secondaryColor: #4DABD4;
+    --brightMainColor: #81D4FA;
+    --brightSecondaryColor: #B2EBF2;
+    --clearColor: #E0F7FA;
+
+}
+
+.pageContainer{
+    flex-direction: column;
+    
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    font-size: 50px;
+}
+

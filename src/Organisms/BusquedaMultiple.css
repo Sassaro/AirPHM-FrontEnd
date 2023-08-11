@@ -1,0 +1,30 @@
+.busquedaMultiple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputContainer{
+    margin: 0 1rem;
+    width: 100%;
+}
+
+.input{
+    border-radius: 2rem !important;
+}
+
+
+@media (min-width: 768px) {
+    .busquedaMultiple {
+        flex-direction: row;
+    }
+
+    .inputContainer{
+        width: 12rem;
+    }
+}
+  

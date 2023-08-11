@@ -1,0 +1,14 @@
+.searchButton {
+
+    border-radius: 2rem !important;
+    align-self: center;
+    width: 150px;
+}
+
+@media (min-width: 768px) {
+    .searchButton {
+
+        width: 2rem;
+    }
+    
+}

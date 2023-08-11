@@ -1,0 +1,11 @@
+.pageSelector{
+    padding: 10px 0px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectorButton{
+    font-size: 25px !important;
+    height: 50px !important;
+}

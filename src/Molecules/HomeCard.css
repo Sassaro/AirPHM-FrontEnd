@@ -1,0 +1,52 @@
+.CardContainer{
+    width: 350px;
+    transition: transform .25s
+}
+
+.CardContainer:hover{
+    transform: scale(1.04);
+}
+
+.cardBody{
+    width: 100%;
+}
+
+.imagenHome{
+    border-radius: 1rem;
+    width: 175px;
+}
+
+.imageContainer-home-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.text{
+    font-size: 0.8rem;
+}
+
+.costos{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.test{
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+
+.card-section{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-button{
+    font-size: 0.8rem !important;
+    padding: 2px !important;
+    height: min-content !important;
+}

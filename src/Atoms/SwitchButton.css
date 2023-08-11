@@ -1,0 +1,14 @@
+.switchButton{
+    background-color: var(--brightSecondaryColor) !important;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--secondaryColor);
+}
+
+.switchButton:hover{
+    background-color: var(--secondaryColor) !important;
+}
+
+.switchButton-on{
+    background-color: var(--secondaryColor) !important;
+}

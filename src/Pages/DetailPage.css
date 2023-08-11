@@ -1,0 +1,35 @@
+.imagenDetail{
+    width: 100%;
+    max-width: 750px;
+}
+
+.containerCheckout{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.DescriptionContainer{
+    margin:0 2rem;
+}
+.agregarComentario{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: min-content;
+}
+.titulo-puntuacion-container{
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns: 70% 25%;
+}
+
+@media (min-width: 768px) {
+
+    .containerCheckout{
+        flex-direction: row;
+    }
+
+}
+  

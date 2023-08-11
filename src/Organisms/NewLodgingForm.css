@@ -1,0 +1,31 @@
+.headerText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;   
+}
+.subHeaderText{
+    gap:10px;
+}
+.dateInput{
+    width: 100%;
+}
+.headerContainer {
+    justify-content: space-evenly;
+}
+
+.dateContainer {
+    border: 2px solid #ddd;
+    border-color: #3A98B9;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.buttonReservar {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #3A98B9;
+}
+.subHeaderContainer {
+    justify-content: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,44 @@
+.form-group {
+    margin-top: 10px;
+    position: relative;
+}
+
+.form-input {
+
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+    color: black;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.form-label {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    font-size: 1.2rem;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label{
+    transform: translateY( -12px) scale(.7);
+    transform-origin: top left;
+    color: gray; 
+}
+
+.helper-text{
+    color: gray !important; 
+}
+
+.error-text{
+    color: red !important; 
+}

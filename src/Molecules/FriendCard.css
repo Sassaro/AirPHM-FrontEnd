@@ -1,0 +1,11 @@
+.friend-card{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.friend-info{
+    flex-direction: column;
+
+}
+

@@ -1,0 +1,27 @@
+.navContainer{
+    background-color: var(--clearColor);
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.datosContainer{
+    padding: 10px 10px 10px 15px;
+    justify-content:flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+.puntuacionContainer{
+    display: flex;
+}
+
+@media (min-width: 768px) {
+
+    .datosContainer{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+}
+  

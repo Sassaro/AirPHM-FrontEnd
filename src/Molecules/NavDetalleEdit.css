@@ -1,0 +1,26 @@
+.lodging-nav-container{
+    background-color: var(--clearColor);
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.form-ubicacion{
+    width: 100%;
+    border-color: black;
+}
+
+.formUbicacionContainer{
+    flex-direction: column;
+}
+
+.fromUbicacionGroup{
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .formUbicacionContainer{
+        flex-direction: row;
+    }
+}
+  
