@@ -1,1 +1,1 @@
-export const REST_SERVER_URL = 'http://localhost:8080'
+export const REST_SERVER_URL = 'https://5da8-2800-2242-80-292-fc8e-501-2537-ef89.ngrok-free.app'
